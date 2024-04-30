@@ -12,6 +12,7 @@
             "ASSEMBLER": "Assembler",
             "SWIFT": "Swift",
             "OCAML": "OCaml",
+            "PHP": "PHP",
             "EMPTY": "Empty"
         }
     }

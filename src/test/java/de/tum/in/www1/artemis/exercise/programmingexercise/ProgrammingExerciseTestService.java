@@ -592,6 +592,7 @@ public class ProgrammingExerciseTestService {
             case HASKELL -> resource = new ClassPathResource("test-data/import-from-file/valid-import-haskell.zip");
             case OCAML -> resource = new ClassPathResource("test-data/import-from-file/valid-import-ocaml.zip");
             case ASSEMBLER -> resource = new ClassPathResource("test-data/import-from-file/valid-import-assembler.zip");
+            case PHP -> resource = new ClassPathResource("test-data/import-from-file/valid-import-php.zip");
         }
 
         var file = new MockMultipartFile("file", "test.zip", "application/zip", resource.getInputStream());

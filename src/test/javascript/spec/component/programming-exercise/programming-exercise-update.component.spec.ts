@@ -769,6 +769,14 @@ describe('ProgrammingExerciseUpdateComponent', () => {
             });
         });
 
+        it('Check that no package name related validation error occurs for language PHP', () => {
+            comp.programmingExercise.programmingLanguage = ProgrammingLanguage.PHP;
+            expect(comp.getInvalidReasons()).not.toContainEqual({
+                translateKey: 'artemisApp.exercise.form.packageName.undefined',
+                translateValues: {},
+            });
+        });
+
         it('Check that no package name related validation error occurs for language OCAML', () => {
             comp.programmingExercise.programmingLanguage = ProgrammingLanguage.OCAML;
             expect(comp.getInvalidReasons()).not.toContainEqual({

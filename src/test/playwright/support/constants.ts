@@ -45,6 +45,7 @@ export enum ProgrammingLanguage {
     ASSEMBLER = 'ASSEMBLER',
     SWIFT = 'SWIFT',
     OCAML = 'OCAML',
+    PHP = 'PHP',
     EMPTY = 'EMPTY',
 }
 

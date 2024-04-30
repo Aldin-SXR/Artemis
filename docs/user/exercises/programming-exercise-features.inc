@@ -30,6 +30,8 @@ Instructors can still use those templates to generate programming exercises and 
   +----------------------+----------+---------+
   | OCaml                | yes      | no      |
   +----------------------+----------+---------+
+  | PHP                  | yes      | yes     |
+  +----------------------+----------+---------+
 
 - Not all ``templates`` support the same feature set and supported features can also change depending on the continuous integration system setup.
   Depending on the feature set, some options might not be available during the creation of the programming exercise.
