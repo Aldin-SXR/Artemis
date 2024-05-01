@@ -6,7 +6,7 @@ class MergeSort {
      *
      * @param int[] $input the array of Dates to be sorted
      */
-    function perform_sort(array $input) {
+    function performSort(array $input) {
         // TODO: implement
     }
 }

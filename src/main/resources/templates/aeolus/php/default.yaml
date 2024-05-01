@@ -2,6 +2,14 @@ api: v0.0.1
 actions:
   - name: build_and_test_the_code
     script: |-
+      bootstrap="<?php
+      spl_autoload_register(function (\$class_name) {
+        include './assignment/'. \$class_name . '.php';
+      });"
+
+      echo "$bootstrap" > bootstrap.php
+
+      phpunit --bootstrap bootstrap.php --verbose --log-junit test-reports/results.xml .
       phpunit --verbose --log-junit test-reports/results.xml .
     runAlways: false
     results:

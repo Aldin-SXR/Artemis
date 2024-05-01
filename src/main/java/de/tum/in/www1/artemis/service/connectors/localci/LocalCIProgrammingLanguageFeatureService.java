@@ -9,6 +9,7 @@ import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.OCAM
 import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.PYTHON;
 import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.SWIFT;
 import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.VHDL;
+import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.PHP;
 import static de.tum.in.www1.artemis.domain.enumeration.ProjectType.FACT;
 import static de.tum.in.www1.artemis.domain.enumeration.ProjectType.GCC;
 import static de.tum.in.www1.artemis.domain.enumeration.ProjectType.GRADLE_GRADLE;
