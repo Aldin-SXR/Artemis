@@ -2,11 +2,11 @@
 
 class MergeSort {
     /**
-     * Sorts dates with MergeSort.
+     * Wrapper method for the real MergeSort algorithm.
      *
-     * @param int[] $input the array of Dates to be sorted
+     * @param array $input the array of Dates to be sorted
      */
-    function performSort(array $input) {
+    public function performSort(array &$input) {
         // TODO: implement
     }
 }

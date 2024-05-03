@@ -8,15 +8,15 @@ First, we need to implement two sorting algorithms, in this case `MergeSort` and
 
 **You have the following tasks:**
 
-1. [task][Implement Bubble Sort](test_bubble_sort)
-Implement the method `perform_sort(int[])` in the class `BubbleSort`. Make sure to follow the Bubble Sort algorithm exactly.
+1. [task][Implement Bubble Sort](testBubbleSort)
+Implement the method `performSort()` in the class `BubbleSort`. Make sure to follow the Bubble Sort algorithm exactly.
 
-2. [task][Implement Merge Sort](test_merge_sort)
-Implement the method `perform_sort(int[])` in the class `MergeSort`. Make sure to follow the Merge Sort algorithm exactly.
+2. [task][Implement Merge Sort](testMergeSort)
+Implement the method `performSort(int[])` in the class `MergeSort`. Make sure to follow the Merge Sort algorithm exactly.
 
 ### Part 2: Strategy Pattern
 
-We want the application to apply different algorithms for sorting an `array` of `int` objects.
+We want the application to apply different algorithms for sorting an `array` of `Date` objects.
 Use the strategy pattern to select the right sorting algorithm at runtime.
 
 **You have the following tasks:**
