@@ -18,6 +18,8 @@ Instructors can still use those templates to generate programming exercises and 
   +----------------------+----------+---------+
   | C                    | yes      | yes     |
   +----------------------+----------+---------+
+  | C++                  | yes      | yes     |
+  +----------------------+----------+---------+
   | Haskell              | yes      | yes     |
   +----------------------+----------+---------+
   | Kotlin               | yes      | yes     |

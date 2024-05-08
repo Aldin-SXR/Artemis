@@ -745,6 +745,14 @@ describe('ProgrammingExerciseUpdateComponent', () => {
             });
         });
 
+        it('Check that no package name related validation error occurs for language C++', () => {
+            comp.programmingExercise.programmingLanguage = ProgrammingLanguage.CPP;
+            expect(comp.getInvalidReasons()).not.toContainEqual({
+                translateKey: 'artemisApp.exercise.form.packageName.undefined',
+                translateValues: {},
+            });
+        });
+
         it('Check that no package name related validation error occurs for language Empty', () => {
             comp.programmingExercise.programmingLanguage = ProgrammingLanguage.EMPTY;
             expect(comp.getInvalidReasons()).not.toContainEqual({

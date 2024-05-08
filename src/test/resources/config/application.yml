@@ -56,6 +56,8 @@ artemis:
                     default: "~~invalid~~"
                 c:
                     default: "~~invalid~~"
+                cpp:
+                    default: "~~invalid~~"
                 haskell:
                     default: "~~invalid~~"
                 vhdl:

@@ -32,7 +32,7 @@ public class TemplateUpgradePolicyService {
     public TemplateUpgradeService getUpgradeService(ProgrammingLanguage programmingLanguage) {
         return switch (programmingLanguage) {
             case JAVA -> javaRepositoryUpgradeService;
-            case KOTLIN, PYTHON, C, HASKELL, VHDL, ASSEMBLER, SWIFT, OCAML, PHP, EMPTY -> defaultRepositoryUpgradeService;
+            case KOTLIN, PYTHON, C, CPP, HASKELL, VHDL, ASSEMBLER, SWIFT, OCAML, PHP, EMPTY -> defaultRepositoryUpgradeService;
         };
     }
 }

@@ -45,6 +45,7 @@ export enum ProgrammingLanguage {
     JAVA = 'JAVA',
     PYTHON = 'PYTHON',
     C = 'C',
+    CPP = 'CPP',
     HASKELL = 'HASKELL',
     KOTLIN = 'KOTLIN',
     VHDL = 'VHDL',

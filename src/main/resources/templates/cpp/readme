@@ -1,0 +1,12 @@
+# Sorting with the Strategy Pattern
+
+In this exercise, we want to implement sorting algorithms and choose them based on runtime specific variables.
+
+### Part 1: Sorting
+
+First, we need to implement two sorting algorithms, in this case `MergeSort` and `BubbleSort`.
+
+**You have the following tasks:**
+
+1. [task][Implement Bubble Sort](testBubbleSort)
+Implement the method `perform_sort()` in the class `BubbleSort`. Make sure to follow the Bubble Sort algorithm exactly.

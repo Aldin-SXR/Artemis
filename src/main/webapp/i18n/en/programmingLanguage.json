@@ -6,6 +6,7 @@
             "JAVA": "Java",
             "PYTHON": "Python",
             "C": "C",
+            "CPP": "C++",
             "HASKELL": "Haskell",
             "KOTLIN": "Kotlin",
             "VHDL": "VHDL",
