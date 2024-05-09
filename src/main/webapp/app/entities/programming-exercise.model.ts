@@ -69,6 +69,7 @@ export enum ProgrammingLanguage {
     SWIFT = 'SWIFT',
     OCAML = 'OCAML',
     PHP = 'PHP',
+    SQL = 'SQL',
     EMPTY = 'EMPTY',
 }
 

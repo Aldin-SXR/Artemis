@@ -785,6 +785,14 @@ describe('ProgrammingExerciseUpdateComponent', () => {
             });
         });
 
+        it('Check that no package name related validation error occurs for language SQL ', () => {
+            comp.programmingExercise.programmingLanguage = ProgrammingLanguage.SQL;
+            expect(comp.getInvalidReasons()).not.toContainEqual({
+                translateKey: 'artemisApp.exercise.form.packageName.undefined',
+                translateValues: {},
+            });
+        });
+
         it('Check that no package name related validation error occurs for language OCAML', () => {
             comp.programmingExercise.programmingLanguage = ProgrammingLanguage.OCAML;
             expect(comp.getInvalidReasons()).not.toContainEqual({

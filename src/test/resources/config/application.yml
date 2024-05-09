@@ -70,7 +70,8 @@ artemis:
                     default: "~~invalid~~"
                 php:
                     default: "~~invalid~~"
-
+                sql:
+                    default: "~~invalid~~"
 
 spring:
     application:

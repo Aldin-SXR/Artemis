@@ -91,6 +91,8 @@ artemis:
                     default: "ls1tum/artemis-ocaml-docker:v1"
                 php:
                     default: "aldinsxr/artemis-php-docker:latest"
+                sql:
+                    default: "aldinsxr/artemis-sql-docker:latest"
 
 management:
     endpoints:

@@ -11,6 +11,7 @@ import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.PYTH
 import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.SWIFT;
 import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.VHDL;
 import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.PHP;
+import static de.tum.in.www1.artemis.domain.enumeration.ProgrammingLanguage.SQL;
 import static de.tum.in.www1.artemis.domain.enumeration.ProjectType.FACT;
 import static de.tum.in.www1.artemis.domain.enumeration.ProjectType.GCC;
 import static de.tum.in.www1.artemis.domain.enumeration.ProjectType.GRADLE_GRADLE;
@@ -49,5 +50,6 @@ public class LocalCIProgrammingLanguageFeatureService extends ProgrammingLanguag
         programmingLanguageFeatures.put(OCAML, new ProgrammingLanguageFeature(OCAML, false, false, false, false, true, List.of(), false, true));
         programmingLanguageFeatures.put(SWIFT, new ProgrammingLanguageFeature(SWIFT, false, false, true, true, false, List.of(PLAIN), false, true));
         programmingLanguageFeatures.put(PHP, new ProgrammingLanguageFeature(PHP, false, false, true, false, false, List.of(), false, true));
+        programmingLanguageFeatures.put(SQL, new ProgrammingLanguageFeature(SQL, false, false, true, false, false, List.of(), false, true));
     }
 }

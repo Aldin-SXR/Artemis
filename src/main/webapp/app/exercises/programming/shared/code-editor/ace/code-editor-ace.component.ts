@@ -14,6 +14,8 @@ import 'brace/mode/makefile';
 import 'brace/mode/kotlin';
 import 'brace/mode/assembly_x86';
 import 'brace/mode/vhdl';
+import 'brace/mode/php';
+import 'brace/mode/sql';
 import 'brace/theme/dreamweaver';
 import 'brace/theme/dracula';
 import { AceEditorComponent } from 'app/shared/markdown-editor/ace-editor/ace-editor.component';
